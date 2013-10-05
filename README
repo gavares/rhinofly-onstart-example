@@ -1,0 +1,13 @@
+Sample app demonstrates Global onStart running twice
+=======================
+
+Steps:
+
+  # Start the project and load the default page. See logs, "Global onStart running" is printed twice.
+  # Stop the app and comment out the Rhinofly dependency in Build.scala
+  # Star tthe app and load the default page. Notice that "Global onStart running" is printed once.
+
+
+One thing to note is that I have my Global in a non-standard location. This is due to a requirement we have in our project.
+
+
